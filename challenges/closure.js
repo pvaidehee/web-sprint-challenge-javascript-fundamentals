@@ -16,9 +16,17 @@ function myFunction() {
 }
 myFunction();
 
-// Explanation: 
+// Explanation: because it is inside that functin and inside the function everything inside it can be accessed.
 
 
 /* Task 2: Counter */
 
-/* Create a function called `summation` that accepts a parameter and uses a counter to return the summation of that number. For example, `summation(4)` should return 10 because 1+2+3+4 is 10. */
+/* Create a function called `summation` that accepts a parameter and uses a counter to return the summation of that number.
+For example, `summation(4)` should return 10 because 1+2+3+4 is 10. */
+
+
+function summation(num){
+  
+  return (num * (num + 1)) / 2;
+}
+console.log(summation(4));

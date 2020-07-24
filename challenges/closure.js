@@ -25,5 +25,10 @@ myFunction();
 For example, `summation(4)` should return 10 because 1+2+3+4 is 10. */
 
 function summation(num){
-  return num!;
+  let arr = [];
+function summation(arr){
+  for (i = 0; i < arr.length; i++)
+    return [i];
+}
+console.log(summation[10]);
 }

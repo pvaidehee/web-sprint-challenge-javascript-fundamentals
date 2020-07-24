@@ -27,6 +27,6 @@ For example, `summation(4)` should return 10 because 1+2+3+4 is 10. */
 
 function summation(num){
   
-  return (num * (num + 1)) / 2
+  return (num * (num + 1)) / 2;
 }
 console.log(summation(4));
